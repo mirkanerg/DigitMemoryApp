@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#404040"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".GameOver">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="50sp"
+        android:typeface="serif"
+        android:textColor="#DAB443"
+        android:textAlignment="center"
+        android:text="GAME OVER" />
+
+    <TextView
+        android:id="@+id/textViewCorrectNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="#DAB443"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Correct Number:" />
+
+    <TextView
+        android:id="@+id/textViewLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="#DAB443"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:text="Level: 0" />
+
+    <TextView
+        android:id="@+id/textViewHighscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textColor="#DAB443"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Highscore: "/>
+
+    <Button
+        android:id="@+id/buttonbackmenu"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:typeface="serif"
+        android:textColor="#404040"
+        android:backgroundTint="#DAB443"
+        android:textSize="25dp"
+        android:text="MENU" />
+</LinearLayout>

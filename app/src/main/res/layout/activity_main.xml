@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#404040"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="50sp"
+        android:typeface="serif"
+        android:textColor="#DAB443"
+        android:textAlignment="center"
+        android:text="Digit Memory"/>
+
+    <TextView
+        android:id="@+id/tvLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:typeface="serif"
+        android:textColor="#DAB443"
+        android:textAlignment="center"
+        android:text="Level: 1" />
+
+    <TextView
+        android:id="@+id/tvDigit"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginTop="20dp"
+        android:typeface="serif"
+        android:textColor="#DAB443"
+        android:textAlignment="center"
+        android:text="0"
+        android:textSize="65dp" />
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:layout_marginTop="20dp"
+        android:digits="1234567890"
+        android:ems="10"
+        android:typeface="serif"
+        android:textAlignment="center"
+        android:textColorHint="@color/white"
+        android:hint="Number?"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:inputType="numberSigned"
+        android:minWidth="50dp"
+        android:minHeight="50dp" />
+
+    <Button
+        android:id="@+id/bConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#DAB443"
+        android:text="CONFIRM"
+        android:textColor="#404040"
+        android:textSize="30dp"
+        android:typeface="serif"  />
+</LinearLayout>
