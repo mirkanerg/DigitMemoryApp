@@ -1,6 +1,6 @@
 # DigitMemoryApp
 
- <br>Zum Importieren -> Instalation von "DigitMemory.zip".<br>
+ <p>Zum Importieren -> Instalation von "DigitMemory.zip".</p>
  <br>Ablaufdiagramm, APK und ZIP wurden in Ordner extra noch hinzugefügt<br>
 
 <br>
