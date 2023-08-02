@@ -1,3 +1,4 @@
 # DigitMemoryApp
 
-Ablaufdiagramm im /master "Ablaufdiagramm.jpg" beim Import aus 
+Zum Importieren reicht Instalation von "DigitMemory.zip" 
+Ablaufdiagramm, APK und ZIP wurden in Ordner extra noch hinzugefügt
