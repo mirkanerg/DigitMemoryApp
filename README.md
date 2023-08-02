@@ -4,5 +4,5 @@
  Ablaufdiagramm, APK und ZIP wurden in Ordner extra noch hinzugefügt
 
 
-.javas= app/src/main/java/com/example/digitmemory
-.xml
+.java's= app/src/main/java/com/example/digitmemory
+.xml's= app/src/main/res/layout
